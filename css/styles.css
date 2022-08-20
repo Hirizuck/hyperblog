@@ -2,51 +2,82 @@ body {
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
-    margin: 0;
-    padding: 0;
     color: darkcyan;
-    background: #1e1f24;
+    background: #B1D7B4;
+    height: 100vh;
 }
 
 #cabecera {
     background: darkcyan;
-    box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 3);
     color: white;
     font-weight: bold;
-    margin: 0;
-    padding: 0.5em;
+    display: flex;
+    justify-content: space-between;
+    height: 10%;
+    border-radius: 20px;
 }
 
 #cabecera #logo {
-    width: 20px;
-    vertical-align: middle;
+    height: 90%;
+    margin: 5px;
+}
+
+.titulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
 }
 
 #cabecera #tagline {
-    padding: 0 0 0 1em;
     font-weight: normal;
     font-size: 0.8em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 4px 0 0;
 }
 
 #container {
-    width: 70%;
-    padding: 1em;
+    width: 80%;
     text-align: left;
-    border: 1px solid #DDD;
+    border: 1px solid #B1D7B4;
     margin: 0 auto;
+    height: 90%;
 }
 
 #container h1 {
-    font-size: 20px;
+    display: flex;
+    justify-content: center;
 }
 
 #post {
     background: white;
     padding: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    border-radius: 20px;
+    margin: 8px 0 8px 0;
+    box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 10);
+}
+
+#foto-platzi {
+    width: 80%;
+    border-radius: 30px;
 }
 
 #footer {
+    height: 5%;
     background: darkcyan;
     color: white;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 3);
 }
